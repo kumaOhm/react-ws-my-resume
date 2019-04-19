@@ -1,7 +1,13 @@
 .App {
-  text-align: center;
+	background-color: #060606;
+	color: #464646;
+	min-height: 100vh;
+  /* text-align: center; */
 }
-
+.card-text:last-child{
+	border-top: 1px solid #dedede;
+    padding-top: 1rem;
+}
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
@@ -31,3 +37,4 @@
     transform: rotate(360deg);
   }
 }
+
