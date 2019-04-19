@@ -21,7 +21,7 @@ class App extends Component {
 								<div className="card-body">
 									<h5 className="card-title">Kuma Ohm</h5>
 									<h6 className="card-sub-title">Fullstack Traveler</h6>
-									<p className="card-text">Email : kuma.ohm@gmail.com</p>
+									<p className="card-text">Email : <a href="mailto:kuma.ohm@gmail.com" className="reverse">moc.liamg@mho.amuk</a></p>
 								</div>
 							</div>
 							<div className="card mt-3 mx-auto w-75">
