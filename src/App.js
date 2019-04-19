@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
 import thumbnail from './rilak_profile.jpg';
 
+import angularLogo from './icon/Angular.png';
+import dockerLogo from './icon/Docker.png';
+import nodejsLogo from './icon/Nodejs.png';
+import phpLogo from './icon/Php.png';
+import reactLogo from './icon/React.png';
+
 import './App.css';
 
 class App extends Component {
@@ -27,13 +33,18 @@ class App extends Component {
 							<div className="card mt-3 mx-auto w-75">
 								<div className="card-body">
 									<h5 className="card-title">Technical Skills</h5>
-									<p className="card-text">React : 0/10</p>
+									<p className="card-text">
+										<img src={dockerLogo} alt="Docker" className="w-25 mx-3" />
+										<img src={nodejsLogo} alt="NodeJS" className="w-25 mx-3" />
+									</p>
 								</div>
 							</div>
 							<div className="card mt-3 mx-auto w-75">
 								<div className="card-body">
 									<h5 className="card-title">Language Skills</h5>
-									<p className="card-text">PHP</p>
+									<p className="card-text">
+										<img src={phpLogo} alt="PHP" className="w-25 mx-3" />
+									</p>
 								</div>
 							</div>
 						</div>
@@ -53,7 +64,10 @@ class App extends Component {
 							<div className="card mt-3 mx-auto w-75">
 								<div className="card-body">
 									<h5 className="card-title">Interests</h5>
-									<p className="card-text">React</p>
+									<p className="card-text">
+										<img src={angularLogo} alt="Angular" className="w-25 mx-3" />
+										<img src={reactLogo} alt="React" className="w-25 mx-3" />
+									</p>
 								</div>
 							</div>
 						</div>
